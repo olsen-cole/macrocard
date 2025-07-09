@@ -1,0 +1,10 @@
+Comment	Designator	Footprint
+nice!nano V2	U1	
+25	"R2,R3"	R_0805
+75	R1	R_0805
+Right angle positive 13 pos 2.54mm pitch header		
+EC11 SMD Rotary Encoder 10mm	MT1	
+602020 Li-Po battery	B1	
+MSK-12C02	SW1	
+CMI873101D01	"SW2,SW3,SW4"	
+RGB LED		3528 PLCC-4
