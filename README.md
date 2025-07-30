@@ -10,27 +10,32 @@ Pressing keys one and two will place the macropad into productivity mode. This l
 ### Window Switcher (Cyan)
 Window switcher is the sub layer that is activated by default when entering the productivity layer. This layer can be activated by pressing the first key while in the productivity layer.
 
-**Function:** Rotating the knob will switch between active windows. Press the knob to select a window.
+#### Function: 
+Rotating the knob will switch between active windows. Press the knob to select a window.
 
 ### Virtual Desktop Switcher (Yellow)
 This layer can be activated by pressing the second key while in the productivity layer.
 
-**Function:** Rotating the knob will switch between virtual desktops.
+#### Function: 
+Rotating the knob will switch between virtual desktops.
 
 ### Tab Switcher (Magenta)
 This sub-layer can be activated by pressing the third key while in the productivity layer.
 
-**Function:** Rotating the knob will switch between active tabs on supported applications. Press the knob to select a tab.
+#### Function: 
+Rotating the knob will switch between active tabs on supported applications. Press the knob to select a tab.
 
 ## Music (Green)
 Pressing keys two and three will place the macropad into music mode.
 
-**Function:** Rotating the knob will adjust volume. Pressing the knob will mute/unmute audio. The three keys control previous track, play/pause, and forward track.
+#### Function: 
+Rotating the knob will adjust volume. Pressing the knob will mute/unmute audio. The three keys control previous track, play/pause, and forward track.
 
 ## Presentation (Red)
 Pressing keys one and three will place the macropad into presentation remote mode.
 
-**Function:** Rotating the knob will navigate slides. Pressing the knob wil activate presenter view. The three keys will start presentation, exit presentation, and toggle blank screen.
+#### Function: 
+Rotating the knob will navigate slides. Pressing the knob wil activate presenter view. The three keys will start presentation, exit presentation, and toggle blank screen.
 
 > [!NOTE] 
 > On any layer, pressing and holding the encoder switch will disconnect from the current connected device.
