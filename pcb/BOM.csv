@@ -1,10 +1,15 @@
-Comment	Designator	Footprint
-nice!nano V2	U1	
-25	"R2,R3"	R_0805
-75	R1	R_0805
-Right angle positive 13 pos 2.54mm pitch header		
-EC11 SMD Rotary Encoder 10mm	MT1	
-602020 Li-Po battery	B1	
-MSK-12C02	SW1	
-CMI873101D01	"SW2,SW3,SW4"	
-RGB LED		3528 PLCC-4
+﻿Component Description,QTY,Ref Des,P/N #
+PLCC4 RGB LED 3528 Common Anode,1,D1, 
+EC11 10mm plum shaft,1,MT1,RIC11-31S10K2-GSMT
+"Resistor, 75Ω, SMD_0805_2012Metric",1,R1,
+"Resistor, 25Ω, SMD_0805_2012Metric",2,"R2,R3",
+"Slide Switches, SW-TH_MSK12C02",1,SW1,MSK12CO2-SZ
+Surface Mount Mini Switch,3,"SW2,SW3,SW4",D2LS-11
+nice!nano V2 Microcontroller,1,U1,nice_nano
+602020 LiPo Battery,1,BT1,
+Right Angle Positive 12 pos 2.54mm Pitch Header,2,,
+M2 Heat Insert,4,,
+M2 5mm Screw,4,,
+2mm Light Pipe,1,,
+5mmx2mm Magnet,2,,
+6mmx2mm Rubber Bumper,4,,

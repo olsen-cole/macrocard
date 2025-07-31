@@ -41,12 +41,12 @@ Rotating the knob will navigate slides. Pressing the knob wil activate presenter
 > On any layer, pressing and holding the encoder switch will disconnect from the current connected device.
 
 # Usage
-ZMK has decent battery optimization. The macropad will be placed into a sleep mode when inactive for an hour. If the macropad will be stored for a week or more, the on/off switch will disconnect the battery.
+ZMK has decent battery optimization. The macropad will be placed into a sleep mode when inactive for an hour. If the macropad will be stored for a week or more, turn the macropad off using the on/off switch to disconnect the battery.
 
 > [!NOTE] 
-> Since the on/off switch will disconnect the battery, charging the battery is not possible when the macropad is "off".
+> Since the on/off switch will disconnect the battery, charging the battery is not possible when the macropad is off.
 
-# Updates
+# Battery
 In order to update or re-flash firmware, connect the macropad to a computer through USB and press all three keys and the encoder switch to enter bootloader mode. If the macropad will not enter bootloader mode through the shortcut, the bootloader mode can be manually activated by shorting the RST pin to the ground pin above it. The macropad should now show as a drive. Simply copy and paste the uf2 file to apply the update.
 
 ## Troubleshooting
