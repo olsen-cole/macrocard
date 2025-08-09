@@ -20,6 +20,8 @@ Although it is possible to surface mount a board with female through-hole connec
 
 The other notable components used for this project were a simple four leg RGB LED, mouse microswitches, a 10mm plum shaft encoder, and a 602020 LiPo battery. Finally, a low profile switch was added to disconnect the battery during storage.
 
+![PCB with components](https://github.com/olsen-cole/macrocard/blob/main/assets/pcb_with_components.jpg)
+
 ## Firmware Design
 
 Before ordering PCBs, I started working on the firmware to confirm that the circuit would work. The two big keyboard firmware projects with support for the NRF52840 are ZMK and BlueMicro. Initially, I began development with BlueMicro as it could remember the last active layer on powerup. However, I required ZMK for a more complex layer system.
