@@ -1,8 +1,8 @@
 # Macrocard
-The macrocard is a wireless business card-shaped macropad featuring three switches, a rotary encoder, and RGB LED feedback. This macropad is designed for productivity workflows, media control, and presentation control. Current firmware for this card is only supported on Windows.
+The macrocard is a wireless business card-shaped macropad featuring three switches, a rotary encoder, and RGB LED feedback. This macropad is designed for productivity workflows, media control, and presentation control. Current firmware for this macropad is only supported on Windows.
 
-![20250806_184450](https://github.com/user-attachments/assets/a50e9c2d-239d-4d5a-8a4e-419565e407a6)
-![20250808_180100](https://github.com/user-attachments/assets/53fd65f8-231c-488a-bbbe-008002aa3c2a)
+![Front/Back](https://github.com/olsen-cole/macrocard/macrocard_front_back.jpg)
+![Internal](https://github.com/olsen-cole/macrocard/macrocard_internal.jpg)
 
 
 # Keymap
