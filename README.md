@@ -1,9 +1,11 @@
 # Macrocard
-The macrocard is a wireless business card-shaped macropad featuring three switches, a rotary encoder, and RGB LED feedback. This macropad is designed for productivity workflows, media control, and presentation control. Current firmware for this macropad is only supported on Windows.
+The macrocard is a wireless business card-shaped macropad featuring three switches, a rotary encoder, and RGB LED feedback. This macropad is designed for productivity workflows, media control, and presentation control.
+
+> [!NOTE] 
+> If you have received a macrocard, the firmware will most likely be for Windows. To switch to Macintosh, see the firmware section.
 
 ![Front/Back](https://github.com/olsen-cole/macrocard/blob/main/assets/macrocard_front_back.jpg)
 ![Internal](https://github.com/olsen-cole/macrocard/blob/main/assets/macrocard_internal.jpg)
-
 
 # Keymap
 This macropad has three main layers: productivity, music, and presentation.
@@ -45,12 +47,15 @@ ZMK has decent battery optimization. The macropad will be placed into a sleep mo
 > [!NOTE] 
 > Since the on/off switch will disconnect the battery, charging the battery is not possible when the macropad is off.
 
-# Battery
-In order to update or re-flash firmware, connect the macropad to a computer through USB and press all three keys and the encoder switch to enter bootloader mode. If the macropad will not enter bootloader mode through the shortcut, the bootloader mode can be manually activated by shorting the RST pin to the ground pin above it. The macropad should now show as a drive. Simply copy and paste the uf2 file to apply the update.
+# Firmware
+There are three firmware files—one for Windows, one for Macintosh, and one to reset. In order to update, re-flash, or change firmware, connect the macropad to a computer through USB and press all three keys and the encoder switch to enter bootloader mode. The macropad should now show as a drive. Simply copy and paste the uf2 file to apply the update.
 
-## Known Issues
+> [!NOTE] 
+> If the macropad will not enter bootloader mode through the shortcut, the bootloader mode can be manually activated by shorting the RST pin to the ground pin above it.
+
+# Known Issues
 - The macropad may fail to wake from deep sleep. Simply connect the macropad through USB and it should wake.
 - The macropad will occasionally display a pink color on wake when it should be cyan. Switching the layer resolves the issue.
 
-## Troubleshooting
-If any issues are encountered during or after the update process, performing a settings reset may resolve issues. To do this, first disassemble the macropad. Place the macropad into bootloader mode manually and apply the settings-reset uf2 file. Then place the macropad into bootloader mode manually and apply the update file. 
+# Troubleshooting
+If any issues are encountered during or after the update process, performing a settings reset may resolve issues. To do this, first disassemble the macropad. Place the macropad into bootloader mode manually and apply the settings_reset.uf2 file. Then place the macropad into bootloader mode manually and apply the update file. 
