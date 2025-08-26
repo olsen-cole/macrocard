@@ -61,4 +61,6 @@ There are three firmware files—one for Windows, one for Macintosh, and one to 
 - The macropad will occasionally display a pink color on wake when it should be cyan. Switching the layer resolves the issue.
 
 # Troubleshooting
+If you cannot connect to the macropad despite the device broadcasting, the unit may have a previous saved connection. Press and hold the encoder switch to clear the saved bluetooth connection and retry connecting.
+
 If any issues are encountered during or after the update process, performing a settings reset may resolve issues. To do this, first disassemble the macropad. Place the macropad into bootloader mode manually and apply the settings_reset.uf2 file. Then place the macropad into bootloader mode manually and apply the update file. 
