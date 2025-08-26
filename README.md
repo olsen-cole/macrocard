@@ -1,4 +1,6 @@
-# <img width="1000" height="100" alt="bannerWhiteTransparent" src="https://github.com/olsen-cole/macrocard/blob/main/assets/bannerWhiteTransparent.png" />
+# <img width="1000" height="100" alt="bannerWhiteTransparent" src="https://github.com/olsen-cole/macrocard/blob/main/assets/banner_white_transparent.png" />
+
+The ZMK config files for this project can be found [here](https://github.com/olsen-cole/zmk-config-macrocard).
 
 The Macrocard is a wireless business card-shaped macropad featuring three switches, a rotary encoder, and RGB LED feedback. This macropad is designed for productivity workflows, media control, and presentation control.
 
@@ -43,7 +45,7 @@ Pressing keys one and three will place the macropad into presentation remote mod
 > On any layer, pressing and holding the encoder switch will disconnect from the current connected device.
 
 # Usage
-ZMK has decent battery optimization. The macropad will be placed into a sleep mode when inactive for an hour. If the macropad will be stored for a week or more, turn the macropad off using the on/off switch to disconnect the battery.
+After three hours of inactivity, the macropad will enter an idle state to save energy. After six hours of inactivity, the macropad will enter a deep sleep mode. With these modes, the macropad can last a little under a month on a single charge. If you need to store the macropad, turn the macropad off using the on/off switch to disconnect the battery.
 
 > [!NOTE] 
 > Since the on/off switch will disconnect the battery, charging the battery is not possible when the macropad is off.
